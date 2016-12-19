@@ -1,0 +1,113 @@
+nav {
+  background-image: url("../img/payments-banner-graphic.png");
+  color: white;
+}
+
+#colorpolice a {
+  color: white;
+  font-family: raleway;
+
+}
+
+#bulle{
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  color: white;
+  position: fixed;
+}
+#accueil {
+  font-family: raleway;
+  border-bottom: 1px solid grey;
+}
+
+#beautiful {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#Entete{
+  font-family: raleway;
+  margin-top:15%;
+  margin-bottom: 15%;
+
+}
+
+#simple {
+font-family: raleway;
+margin-bottom: 10%;
+margin-top: 5%;
+}
+
+#grey {
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  background-color:#4C535C;
+  margin-top: -3%;
+}
+
+#diiv {
+  font-family: raleway;
+  height: 550px;
+  overflow: hidden;
+}
+
+img {
+  border radius :5px;
+
+}
+
+#imgbody{
+  margin-top: 15%;
+}
+
+#texte {
+  margin-top:30%
+
+}
+
+#bouton2 {
+  background-color:#00AF86;
+  color: white;
+}
+#diiv2{
+  border-top: 1px solid grey;
+
+}
+
+#diiv3{
+  font-family: raleway;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+footer {
+  font-family: raleway;
+  background-color: #242629;
+  color: #AAAAAA;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 20%;
+  margin-bottom: 25%;
+}
+/*
+footer li {
+  color: white;
+}*/
+
+h4 {
+  color: grey;
+}
+
+#copyright {
+  font-size:12px;
+  margin-bottom: 5%;
+}

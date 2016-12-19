@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/5ae75527aa.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/portfolio.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title">
+    <title></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand"><i>Giovani Boutillier</i></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><strong>Accueil</strong></a></li>
+                    <li><a href="#divport"><strong>Portfolio</strong></a></li>
+                    <li><a href="#titreapropos"><strong>A propos</strong></a></li>
+                    <li><a href="img/CV.odt"><strong>C.V</strong></a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <strong>Contact</strong> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.facebook.com/GiovaniDjedirBoutillier" target="_blank">Facebook</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="https://twitter.com/GiovaniBtllr" target="_blank">Twitter</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="https://plus.google.com/u/0/107909425247212299936" target="_blank"  >G-mail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+    </nav>
+
+    <div id="haut">
+      <a href="#"><img src="img/fleche.jpg"></a>
+    </div>
+
+    <!-- ********************************************************************************
+******************************************CAROUSEL************************************
+************************************************************************************* -->
+    <div id="my_carousel" class="carousel slide " data-ride="carousel">
+        <!-- Bulles -->
+        <ol class="carousel-indicators">
+            <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my_carousel" data-slide-to="1"></li>
+            <li data-target="#my_carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <!-- Page 1 -->
+            <div class="item active">
+                <div class="carousel-page">
+                    <img src="img/colin-developpeur-web-cekome-1152x389.jpg" class="img-responsive" style="margin:0px auto;" />
+                    <div id="texte">
+                        <h1>Giovani Boutillier</h1>
+                        <h2>Formation Simplon Boulogne Sur Mer </h2>
+                        <a href="#divport"><input type="button" name="name" value="PORTFOLIO"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Page 2 -->
+            <div class="item">
+                <div class="carousel-page">
+                    <img src="img/b6b45b667b2aaf56391613852dd81baf.jpeg" class="img-responsive img-rounded" style="margin:0px auto;" />
+                    <div id="texte2">
+                        <a href="#titreapropos"><input type="button" name="name" value="A propos"></a>
+                        <br>
+                        <a href="img/CV.odt"><input type="button" name="name" value="Telecharger mon C.V"></a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Page 3 -->
+            <div class="item">
+                <div class="carousel-page">
+
+                    <img src="img/daa8c0ba977a3c334361b448c12d6ea3_large.jpeg" class="img-responsive img-rounded" style="margin:0px auto;" />
+
+                </div>
+                <div class="carousel-caption">
+                  <div id="texte3">
+
+                    <ul>
+                  <li><a href="https://www.facebook.com/GiovaniDjedirBoutillier" target="_blank"><img src="img/facebook.png"></a> </li>
+                  <br>
+                  <li> <a href="https://twitter.com/GiovaniBtllr" target="_blank"><img src="img/Twitter.png"></a> </li>
+                  <br>
+                  <li> <a href="https://plus.google.com/u/0/107909425247212299936"target="_blank"><img src="img/logo-gmail.jpg"></a> </li>
+
+                  </div>
+                </div>
+            </div>
+
+            <!-- Contrôles -->
+            <div>
+            <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <!-- </div> -->
+    <!-- *****************************************************************************************************************
+    **********************************************PORTFOLIO************************************************************
+    ***************************************************************************************************************** -->
+
+
+    <div id="divport">
+    <div class="row col-md-12"  id="portfolio">
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+        <div class="col-md-offset-2 col-md-4">
+            <!-- col-md-Offset (Commencement)../ -->
+            <div class="thumbnail">
+              <a href="pages/st.html" target="_blank">
+                <img src="img/chaudfroid.png" alt="">
+              </a>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <!-- col-md-Offset (Commencement)../ -->
+            <div class="thumbnail">
+                <a href="pages/tictac.html" target="_blank">
+                  <img src="img/tictactoe.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-4">
+            <!-- col-md-Offset (Commencement)../ -->
+            <div class="thumbnail">
+              <a href="pages/index1.html" target="_blank">
+                <img src="img/bootstrap3.png" alt="">
+              </a>
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <!-- col-md-Offset (Commencement)../ -->
+            <a href="pages/index2.html" target="_blank">
+            <div class="thumbnail">
+                <img src="img/bootstrap2.png" alt="">
+              </a>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+        </div>
+          <div class="col-md-offset-2 col-md-4">
+              <!-- col-md-Offset (Commencement)../ -->
+              <div class="thumbnail">
+                <a href="pages/ex4.html" target="_blank">
+                  <img src="img/couleur.png" alt="">
+                </a>
+              </div>
+          </div>
+
+
+          <div class="col-md-4">
+              <!-- col-md-Offset (Commencement)../ -->
+              <div class="thumbnail">
+                <a href="pages/storyteller.html" target="_blank">
+                  <img src="img/Capture du 2016-12-16 10-14-20.png" alt="">
+                </a>
+
+              </div>
+          </div>
+
+
+      </div><!-- row-->
+    </div>
+
+    <!-- ********************************************************************
+    ******************A PROPOS******************************************
+    ******************************************************************** -->
+  <div id="titreapropos">
+    <!-- <h1 > A propos </h1> -->
+  </div>
+  
+   <div class="media col-md-12 col-md-offset-1" id="apropos" >
+  <div class="col-md-4">
+      <img class="media-object" src="img/moi.jpg" alt="...">
+  </div>
+
+</div>
+<div class="col-md-4"id="apropos">
+  <h3> A propos de moi</h3>
+  <p> Je m'appelle Giovani Boutillier,j'ai 23 ans et je suis originaire de Boulogne sur mer,
+  dans le Pas de Calais. Actuellement en formation "Développeur Web" avec <a href="http://simplon.co/ecosysteme/essaimage-simplon-co/boulognesurmer/" target="_blank">Simplon</a>,
+    je suis social, curieux, motivé et dynamique.
+  </p>
+  <h3> Boulogne Sur Mer  </h3>
+  <p>
+    Boulogne-sur-Mer est une commune française, sous-préfecture du département
+    du Pas-de-Calais en région Hauts-de-France. Ses habitants sont appelés
+    les Boulonnais.
+
+Avec environ 45 000 habitants intra-muros, la ville est la deuxième du département par sa population derrière Calais, et première par
+ sa densité de population.
+<a href="https://fr.wikipedia.org/wiki/Boulogne-sur-Mer" target="_blank">En Savoir plus </a>
+  </p>
+</div>
+<br>
+<div class="col-md-4" id="apropos">
+    <img class="media-object" src="img/boulogne.jpg" alt="...">
+</div>
+
+<div class="col-md-offset-1 col-md-6" id="simplon">
+  <img src="img/simplon.png" style="height:100px">
+<p>
+Entreprise de l’économie sociale et solidaire (agrément ESUS),
+ Simplon.co est un réseau de « fabriques » (écoles) qui propose des formations
+  GRATUITES pour devenir développeur de sites web et d’applications mobiles,
+  intégrateur, référent numérique, datartisan, e-commerçant… et bien d’autres
+  métiers numériques “en tension” qui permettent de trouver rapidement un emploi
+  ou de créer sa propre activité. Ces formations, qualifiantes ou certifiantes,
+   s’adressent prioritairement aux personnes éloignées de l’emploi
+   (jeunes de moins de 25 ans, peu ou pas diplômées, issues des quartiers populaires
+    et des milieux ruraux, demandeurs d’emplois de longue durée, seniors, personnes
+     en situation de handicap, personnes réfugiées), et sont ouvertes sur critères
+     sociaux et avec un objectif de parité hommes-femmes mais sans aucun pré-requis
+     technique (débutants acceptés). En revanche, il est obligatoire d’avoir une très
+      forte MOTIVATION, une appétence forte pour le numérique et d’aimer travailler en
+     équipe !</p>
+     <p> <a href="http://simplon.co/ecosysteme/essaimage-simplon-co/boulognesurmer/" target="_blank">En Savoir plus </a>
+</p>
+</div>
+<div class="" id="simplon">
+    <img src="img/CxN4dPwXgAAAVfh.jpg">
+</div>
+
+<!-- *****************************************************************************************
+*****************************************************************************************
+***************************************************************************************** -->
+<div class="row" id="progresion">
+  <div class="col-md-offset-4 col-md-6" >
+    <img src="img/js.png">
+  </div>
+<div class="progress col-md-offset-2 col-md-3">
+  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (danger)</span>
+  </div>
+</div>
+<div class="progress col-md-offset-1 col-md-3">
+  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+    <span class="sr-only">20% Complete</span>
+  </div>
+</div>
+<div class="progress col-md-offset-4 col-md-3">
+  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+    <span class="sr-only">10% Complete (success)</span>
+  </div>
+</div>
+</div>
+    </div>
+    <!-- /.container-fluid -->
+
+<!-- *************************************************************************************
+*************************************************************************************
+************************************************************************************* -->
+
+    <footer>
+            <div id="copyright" class="copyright col-md-offset-2 col-md-6">
+              <a href="http://www.facebook.com" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="http://www.twitter.com" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+              <a href="https://mail.google.com" target="_blank"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a>
+                <p>Made by Giovani ©2016</p>
+        </div>
+
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</html>

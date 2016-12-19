@@ -1,0 +1,30 @@
+html {
+  background-image: url("../img/9887_l.jpg");
+  background-size: cover;
+
+}
+
+div {
+  padding: inherit;
+  background-color: #B2CFCF;
+  margin: auto;
+  margin-top:5%;
+  opacity:0;
+  border: solid 2px black;
+}
+
+div:hover {
+  opacity: 0.7;
+}
+
+p {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  text-align: center;
+
+}
+
+span { 
+  font-weight: bold;
+  color: red;
+}
